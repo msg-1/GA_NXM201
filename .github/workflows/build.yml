@@ -4,3 +4,6 @@ jobs :
           runs-on : ubuntu-latest
           steps :
                 - run : node --version
+                - run : npm --version
+                - uses : action/checkout@v3
+                - run : node index.js
