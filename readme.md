@@ -33,3 +33,9 @@ number: numeric values
 Boolean: true or false.
 Null: null
 Object: are denoted by key-value pairs
+
+
+
+steps:
+1. create a .github folder and a .yml file
+        .github/workflows/build.yml
