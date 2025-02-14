@@ -1,0 +1,18 @@
+{
+  "name": "day-19",
+  "description": "CI/CD.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-test":"npx eslint index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
