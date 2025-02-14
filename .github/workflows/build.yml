@@ -4,6 +4,7 @@ jobs :
           runs-on : ubuntu-latest
           steps :
                 - uses : actions/checkout@v4
-                - run : npx eslint
+                - run : npx eslint index.js
                 - run : node index.js
+                
 
